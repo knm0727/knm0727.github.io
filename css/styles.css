@@ -1,0 +1,43 @@
+html, body{
+  overflow-x: hidden;
+}
+h1 {
+font-family: 'Montserrat', sans-serif;
+font-size: 70px;
+}
+h2{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+}
+h3{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 28px;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+li{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+
+}
+ul.top-stuff{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #D99D53;
+}
+li.Design-Container, li.Software-Container, li.Languages-Container{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+
+}
+
+ul.Design-Skills, ul.Software-Types, ul.Language-Types{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+btn-outline{
+  color:#D99D53;
+}
