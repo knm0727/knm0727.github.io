@@ -43,23 +43,81 @@ btn-outline{
   color:#D99D53;
 }
 
-section.Project-one{
-  background: linear-gradient(to right,  #FFFFFF 0%,#FFFFFF 50%,#E7E1D3 50%,#E7E1D3 100%);
+.Project1 {
+  height: 458px;
+}
+.project1-left {
+  float: left;
+  width: 65%;
+  height: 488px;
+  background-color: #FFFFFF;
+  margin-top: -40px
+}
+.project1-right {
+  float: right;
+  width: 35%;
+  height: 458px;
+  background-color: #E7E1D3;
+  margin-top: -10px;
+}
+.storytime-pic{
+  margin: 40px 0 40px -10px;
 }
 
-
-section.Project-two{
-  background: linear-gradient(to right,  #F4E9E7 0%,#F4E9E7 50%,#FFFFFF 50%,#FFFFFF 100%);
+.Project2 {
+  height: 458px;
 }
-
-section.Project-three{
-background: #E7E1D3;
+.project2-right {
+  float: right;
+  width: 45%;
+  height: 458px;
+  background-color: #FFFFFF;
 }
-
-section.skills{
+.project2-left {
+  float: left;
+  width: 55%;
+  height: 458px;
   background: #F4E9E7;
 }
-
-section.profile-container{
-background: linear-gradient(to right,  #FFFFFF 0%,#FFFFFF 50%,#E7E1D3 50%,#E7E1D3 100%);
+.artsywood-pic {
+  margin: 50px 0px 50px -70px;
 }
+
+
+.Project3{
+  height: 458px;
+}
+.project3-right{
+  float: right;
+  height: 458px;
+  width:60%;
+  background: #E7E1D3;
+}
+.project3-left{
+  float: left;
+  height: 493px;
+  width: 40%;
+  background: #E7E1D3;
+}
+
+
+.Profile-and-Skills{
+  height:675px;
+}
+.profile-left {
+  float: left;
+  width: 40%;
+  height: 635px;
+  background: #FFFFFF;
+}
+.skills-right {
+  float: right;
+  width: 60%;
+  height: 458px;
+  background: #F4E9E7;
+  margin-top: -30px;
+}
+
+  .design-element{
+    float: right;
+  }
