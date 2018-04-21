@@ -43,14 +43,18 @@
     <img src="siteimages/site-pic.png" alt="Portfolio" />
     </div>
 </header>
-<main role="main">
 
 <!---PROJECT SECTION--->
 
 <!---PROJECT ONE--->
-<section class="Project-one">
-  <div class="project containercontainer">
-    <img src="siteimages/Storytime.png" alt="Storytime" />
+<main role="main">
+<section class="Project1">
+  <div class="project1-left">
+    <div class="storytime-pic">
+     <img src="siteimages/Storytime.png" alt="Storytime" />
+    </div>
+  </div>
+  <div class ="project1-right">
     <h2>StoryTime</h2>
       <ul>
         <li>#UI/UX</li>
@@ -62,9 +66,13 @@
 </section>
 
 <!---PROJECT TWO-->
-<section class="Project-two">
-  <div class="project container">
-     <img src="siteimages/Artsywood.png" alt="Artsywood" />
+<section class="Project2">
+  <div class="project2-right">
+    <div class="artsywood-pic">
+      <img src="siteimages/Artsywood.png" alt="Artsywood" />
+    </div>
+  </div>
+  <div class="project2-left">
       <h2>Artsywood</h2>
       <ul>
         <li>#UI/UX</li>
@@ -76,27 +84,31 @@
 </section>
 
 <!---PROJECT THREE-->
-<section class="Project-three">
-  <div class="project container">
+<section class="Project3">
+  <div class="project3-left">
     <img src="siteimages/Blocbox.png" alt="Blocbox" />
+  </div>
+  <div class="project3-right">
     <h2>Blocbox</h2>
     <ul>
      <li>#UI/UX</li>
      <li>#research</li>
     </ul>
     <div class="btn-outline"><a href="viewproject.html">VIEW PROJECT</a></div>
- </div>
+  </div>
 </section>
 
-<!---PROFILE SECTION-->
-<section class="profile-container">
+<!---PROFILE & SKILLS SECTION-->
+<div class="Profile-and-Skills">
+<!--PROFILE-->
+<section class="profile-left">
   <img src="siteimages/Profile-pic.png" alt="Profile-picture" />
   <p>UX/UI Designer with frontend knowlege focused designing pixel perfect, easy to use interfaces.</p>
   <div class="btn-outline"><a href="viewproject.html">ABOUT ME</a></div>
 </section>
 
-<!---SKILLS SECTION-->
-  <section class="skills"
+<!---SKILLS-->
+  <section class="skills-right"
     <div class="skills-container">
       <h2>My Skills</h2>
       <ul class="Skills-Type">
@@ -126,11 +138,14 @@
           </ul>
         </li>
       </ul>
-      <section class="design-element">
-        <img src="siteimages/Downarrows.png" alt="down triangles">
-      </section>
     </div>
   </section>
+</div>
+
+<!--DESIGN ARROWS-->
+<div class="design-element">
+  <img src="siteimages/Downarrows.png" alt="down triangles">
+</div>
 </main>
 
 <!--- Footer --->
@@ -142,12 +157,11 @@
     <nav class="link-block middle-footer-block one-third">
       <ul>
         <li><a href="">E-mail me</a></li>
-
       </ul>
-    </nav>
-    <div class="right-footer-block one-third">
+   </nav>
+   <div class="right-footer-block one-third">
       <img class="logo" src="siteimages/site-logo.png" alt="Portfolio" />
-    </div>
+   </div>
   </div>
  </footer>
 </body>
