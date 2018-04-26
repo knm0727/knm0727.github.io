@@ -1,48 +1,112 @@
-html, body{
+ html, body{
   overflow-x: hidden;
-  background-color: #FAF5ED;
-}
-h1 {
+ }
+
+/*HEADER*/
+ header {
+  background: #F4E9E7;
+  height: 679px;
+  width: 100%
+  }
+ header nav .top-navigation {
+   height: 601px;
+   width: 100%;
+   background: #F4E9E7;
+ }
+ header nav .top-nav {
+  background: #FAF5ED;
+  height: 84px;
+ }
+ header nav .logo{
+   position: absolute;
+ }
+ header nav ul {
+  margin:0;
+  text-align: center;
+  position: absolute;
+ }
+ header nav ul > li {
+  font-size: 18px;
+  list-style-type: none;
+  display: inline;
+  margin:0 28px;
+ }
+ header nav ul > li > a {
+  color:#D99D53;
+  text-decoration: none;
+ }
+ header nav ul > li.btn-outline:hover > a {
+   color:#E0B3AD;
+ }
+ header .left-info{
+  background: #FFFFFF;
+  width: 20%;
+  height: 105px;
+  text-align: center;
+ }
+ header .left-info h1 {
+   font-size:70px;
+   font-weight: normal;
+   margin:95px 0 0;
+   color: #000000;
+ }
+ header .left-info h3 {
+   font-size: 28px;
+   line-height: 10px;
+   font-weight: medium;
+   color: #D99D53;
+   margin:5px 0 40px;
+ }
+ header .social-media {
+   background: #FFFFFF;
+   width: 10%;
+   height: 40px;
+   margin:20px 0 40px;
+ }
+ header .main-pic{
+
+ }
+
+ /*FONT SIZE/TYPE*/
+ h1 {
 font-family: 'Montserrat', sans-serif;
 font-size: 70px;
 }
-h2{
+ h2{
   font-family: 'Cormorant Garamond', serif;
   font-size: 40px;
 }
-h3{
+ h3{
   font-family: 'Cormorant Garamond', serif;
   font-size: 28px;
+  font-weight: 100;
 }
-p{
+ p{
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
 }
-li{
+ li{
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-
 }
-ul.top-stuff{
+ ul.top-stuff{
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   color: #D99D53;
 }
-li.Design-Container, li.Software-Container, li.Languages-Container{
+ li.Design-Container, li.Software-Container, li.Languages-Container{
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-
 }
-
-ul.Design-Skills, ul.Software-Types, ul.Language-Types{
+ ul.Design-Skills, ul.Software-Types, ul.Language-Types{
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
 }
-
-btn-outline{
+ btn-outline{
   color:#D99D53;
 }
 
+/*PROJECT ONE*/
 .Project1 {
   height: 458px;
 }
@@ -64,6 +128,7 @@ btn-outline{
   margin: 40px 0 40px -10px;
 }
 
+/*PROJECT TWO*/
 .Project2 {
   height: 458px;
 }
@@ -83,7 +148,7 @@ btn-outline{
   margin: 50px 0px 50px -70px;
 }
 
-
+/*PROJECT THREE*/
 .Project3{
   height: 458px;
 }
@@ -99,8 +164,7 @@ btn-outline{
   width: 40%;
   background: #E7E1D3;
 }
-
-
+/*ABOUT ME & SKILLS SECTION*/
 .Profile-and-Skills{
   height:675px;
 }
@@ -118,6 +182,7 @@ btn-outline{
   margin-top: -30px;
 }
 
+/*DESIGN ELEMENT ARROWS*/
   .design-element{
     float: right;
   }
