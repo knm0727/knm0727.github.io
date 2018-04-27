@@ -20,10 +20,8 @@
   <!--NAVIGATION-->
   <nav class="top-navigation">
     <section class="top-nav">
-     <div class="logo">
-      <a href="index.html" class="site-logo"><img src="siteimages/site-logo.png" atl="Kmills" /></a>
-     </div>
       <ul>
+        <li class="active"><img src="siteimages/site-logo.png" atl="Kmills" /></li>
         <li class="btn-outline"><a href="about.html">about</a></li>
         <li class="btn-outline"><a href="portfolio.html">portfolio</a></li>
         <li class="btn-outline"><a href="designprocess.html">design process</a></li>
@@ -39,7 +37,7 @@
     <h1>hello</h1>
     <h3>I'm Katie Milligan</h3>
    </section>
-   <section class="social-media">
+   <section class="left-social-media">
     <a href="https://www.facebook.com/Katie0727">
      <img src="siteimages/Facebook.png" alt="Facebook">
     </a>
@@ -53,49 +51,47 @@
      <img src="siteimages/Linkedin.png" alt="Linkedin" />
     </a>
  </section>
-    <div class="main-pic">
-      <img src="siteimages/site-pic.png" alt="Portfolio" style="width:630px;height:572px;" />
-    </div>
+ <!--<img src="siteimages/site-pic.png" alt="Portfolio" style="width:630px;height:572px;" />-->
   </div>
 </header>
 
-<!---PROJECT SECTION--->
+  <!---PROJECT SECTION--->
 
 <!---PROJECT ONE--->
 <main role="main">
 <section class="Project1">
   <div class="project1-left">
-    <div class="storytime-pic">
-     <img src="siteimages/Storytime.png" alt="Storytime" />
-    </div>
+    <img src="siteimages/Storytime.png" class="storytime1" />
   </div>
   <div class ="project1-right">
+   <section class="project1-right-info">
     <h2>StoryTime</h2>
-      <ul>
-        <li>#UI/UX</li>
-        <li>#mobile</li>
-        <li>#kidsapp</li>
-      </ul>
-      <div class="btn-outline"><a href="viewproject.html">VIEW PROJECT</a></div>
-  </div>
+     <ul>
+      <li>#UI/UX</li>
+      <li>#mobile</li>
+      <li>#kidsapp</li>
+    </ul>
+    <button class="button" style="vertical-align:middle"><span>view case study</span></button>
+  </section>
+ </div>
 </section>
 
 <!---PROJECT TWO-->
 <section class="Project2">
   <div class="project2-right">
-    <div class="artsywood-pic">
-      <img src="siteimages/Artsywood.png" alt="Artsywood" />
-    </div>
+   <img src="siteimages/Artsywood.png" class="artsywood1" />
   </div>
   <div class="project2-left">
+  <section class="project2-left-info">
       <h2>Artsywood</h2>
       <ul>
         <li>#UI/UX</li>
         <li>#invent</li>
         <li>#ecommerce</li>
       </ul>
-      <div class="btn-outline"><a href="viewproject.html">VIEW PROJECT</a></div>
-  </div>
+      <button class="button" style="vertical-align:middle"><span>view case study</span></button>
+  </section>
+</div>
 </section>
 
 <!---PROJECT THREE-->
@@ -109,7 +105,7 @@
      <li>#UI/UX</li>
      <li>#research</li>
     </ul>
-    <div class="btn-outline"><a href="viewproject.html">VIEW PROJECT</a></div>
+    <button class="button" style="vertical-align:middle"><span>view webpage</span></button>
   </div>
 </section>
 
@@ -117,14 +113,14 @@
 <div class="Profile-and-Skills">
 <!--PROFILE-->
 <section class="profile-left">
-  <img src="siteimages/Profile-pic.png" alt="Profile-picture" />
+  <img src="siteimages/Profile-pic.png" class="profile-picture" />
   <p>UX/UI Designer with frontend knowlege focused designing pixel perfect, easy to use interfaces.</p>
-  <div class="btn-outline"><a href="viewproject.html">ABOUT ME</a></div>
+  <button class="button" style="vertical-align:middle"><span>view case study</span></button>
 </section>
 
 <!---SKILLS-->
   <section class="skills-right"
-    <div class="skills-container">
+    <section class="skills-container">
       <h2>My Skills</h2>
       <ul class="Skills-Type">
         <li class="Design-Container">Design
@@ -153,31 +149,27 @@
           </ul>
         </li>
       </ul>
-    </div>
+    </section>
   </section>
 </div>
 
+<br> <br>
 <!--DESIGN ARROWS-->
-<div class="design-element">
+<section class="design-element">
   <img src="siteimages/Downarrows.png" alt="down triangles">
-</div>
-</main>
+</section>
+
 
 <!--- Footer --->
- <footer>
-  <div class="container footer-nav-block">
-    <div class="left-footer-block one-third">
-         <p class="copyright-block">&copy; 2018. <strong>K.Mills</strong> - All Rights Reserved.</p>
-    </div>
-    <nav class="link-block middle-footer-block one-third">
+<footer>
+  <section class="footer1">
       <ul>
-        <li><a href="">E-mail me</a></li>
+        <li><img src="siteimages/site-logo.png" atl="Kmills" /></li>
+        <li>Designed by K.Mills</li>
+        <li class="btn-outline"><a href="contact.html">contact</a></li>
       </ul>
-   </nav>
-   <div class="right-footer-block one-third">
-      <img class="logo" src="siteimages/site-logo.png" alt="Portfolio" />
-   </div>
-  </div>
- </footer>
+    </section>
+</footer>
+</main>
 </body>
 </html>
