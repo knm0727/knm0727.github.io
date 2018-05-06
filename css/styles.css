@@ -1,68 +1,74 @@
- html, body{
-  overflow-x: hidden;
- }
+ html, body {
+  /*overflow-x: hidden;*/
+}
 
 /*HEADER*/
- header {
+header {
   background: #F4E9E7;
-  height: 679px;
-  width: 100%
-  }
-  hero .img {
-    display: block;
-    margin: 3em auto 0;
-    padding: 50px;
-    float: right;
-    overflow: auto;
- }
- header nav ul {
+  width: 100%;
+}
+header nav ul {
   list-style-type: none;
   margin: 0;
   padding: 15px;
   overflow: hidden;
   background-color: #FAF5ED;
- }
- header nav ul > li {
+}
+header nav ul > li {
   font-size: 18px;
   float: left;
- }
- header nav ul > li > a {
+}
+header nav ul > li > a {
   color:#D99D53;
   display: block;
   color: #D99D53;
   text-align: center;
   padding: 10px 30px;
   text-decoration: none;
- }
- header nav ul > li.btn-outline:hover > a {
-   color:#E0B3AD;
- }
- header .left-info{
+}
+header nav ul > li.btn-outline:hover > a {
+  color:#E0B3AD;
+}
+.hero {
+  position: relative;
+}
+.hero .hero-overlay {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+.hero .left-info {
   background: #FFFFFF;
   width: 20%;
   height: 105px;
   text-align: center;
- }
- header .left-info h1 {
-   font-size:70px;
-   font-weight: normal;
-   margin:95px 0 0;
-   color: #000000;
- }
- header .left-info h3 {
-   font-size: 28px;
-   line-height: 10px;
-   font-weight: medium;
-   color: #D99D53;
-   margin:5px 0 40px;
- }
- header .left-social-media {
-   background: #FFFFFF;
-   width: 10%;
-   height: 40px;
-   margin:20px 0 40px;
- }
- header .img {
+}
+.hero .left-info h1 {
+  font-size: 70px;
+  font-weight: normal;
+  margin: 0;
+  color: #000000;
+}
+.hero .left-info h3 {
+  font-size: 28px;
+  line-height: 10px;
+  font-weight: medium;
+  color: #D99D53;
+  margin:5px 0 40px;
+}
+.hero .left-social-media {
+  background: #FFFFFF;
+  width: 10%;
+  height: 40px;
+  margin:20px 0 40px;
+}
+.hero .left-social-media a {
+  display: inline-block;
+}
+.hero .katiesha  {
+  display: block;
+  margin: 40px auto 0;
 }
 
 /*FONT SIZE/TYPE*/
@@ -111,14 +117,14 @@
 }
 .project1-left {
   float: left;
-  width: 50%;
+  width: 52%;
   height: 508px;
   background-color: #FFFFFF;
   margin-top: -50px;
 }
 .project1-right {
   float: right;
-  width: 50%;
+  width: 48%;
   height: 458px;
   background-color: #E7E1D3;
 }
@@ -336,55 +342,87 @@
  opacity: 1;
  right: 0
 }
-/*ABOUT ME & SKILLS SECTION*/
-.Profile-and-Skills{
-  height:458px;
+
+/*PROFILE AND SKILLS SECTION*/
+.Profile-and-Skills {
+ display: flex;
+ flex-direction: row;
+ align-items: stretch;
+ justify-content: center;
+ border: 1px solid red;
+ height: 510px;
+ width: 100%;
 }
 .profile-left {
-  float: left;
-  width: 50%;
-  height: 458px;
-  background: #FFFFFF;
+ flex: 35;
+ background-color: #FFFFFF;
+ text-align: center;
+ z-index: 1;
 }
-.profile-picture{
-  padding-left: 20px;
-}
-
-.profile-left p {
-  width: 326px;
-  text-align: center;
+.profile-picture {
+ margin: -40px -20px 10px 0;
 }
 .skills-right {
-  float: right;
-  width: 50%;
-  height: 558px;
-  background: #F4E9E7;
-  margin-top: -100px;
+ flex: 65;
+ margin-top: -50px;
+ background-color: #F4E9E7;
 }
-.skills-container {
-  margin: 50px;
+.skills-right h2 {
+ color: #D99D53;
+ text-align: center;
 }
+.clearspan {
+ clear: both;
+}
+.tablink {
+ background-color: #FFFFFF;
+ color: #000000;
+ float: right;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ padding: 10px 20px;
+ font-size: 20px;
+ font-family: 'Montserrat', sans-serif;
+ width: 30%;
+}
+.tablink:hover {
+ text-decoration: underline;
+ text-decoration-color: #D99D53;
+}
+.tabcontent {
+ color: #000000;
+ display: none;
+ padding: 60px 20px;
+ height: 30%;
+ font-weight: lighter;
+}
+.tabcontent ul {
+  margin: 30px 30px;
+  line-height:250%
+}
+
 
 /*DESIGN ELEMENT ARROWS*/
 .design-element{
-height: 100px;
-width: 100%;
-padding-left: 100px;
+ height: 100px;
+ width: 100%;
+ padding-left: 100px;
 }
 
   /*FOOTER*/
 
-footer {
+/* footer {
  background: #FAF5ED;
  height: 50px;
  width: 100%
 }
-footer footer1 .ul {
+footer ul {
  list-style-type: none;
  margin: 0;
  padding: 15px;
 }
-footer footer1 ul > li {
+footer ul > li {
  font-size: 18px;
 }
 footer ul > li > a {
@@ -397,7 +435,7 @@ footer ul > li > a {
 }
 footer ul > li.btn-outline:hover > a {
  color:#E0B3AD;
-}
+} */
 
 /*MEDIA QUERIES*/
 @media (min-width: 768px) {
