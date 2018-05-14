@@ -3,6 +3,9 @@
 <head>
  <title>Katie Milligan | Portfoilio</title>
 
+ <!--button-->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!--GOOGLE FONTS-->
 <link href='https://fonts.googleapis.com/css?family=Cormorant+Garamond:400|Montserrat:300,400,500' rel="stylesheet" type='text/css'>
 
@@ -11,7 +14,7 @@
 <link rel="stylesheet" href="css/styles.css">
 
 <!--JAVASCRIPT-->
-<script type="text/javascript" src="javascript.js" ></script>
+
 
 </head>
 
@@ -42,6 +45,7 @@
         <h3>I'm Katie Milligan</h3>
       </section>
       <section class="left-social-media">
+       <div class="social-media-info">
         <a href="https://www.facebook.com/Katie0727">
           <img src="siteimages/Facebook.png" alt="Facebook">
         </a>
@@ -54,6 +58,7 @@
         <a href="https://www.linkedin.com/in/katie-milligan-66986313b/">
           <img src="siteimages/Linkedin.png" alt="Linkedin" />
         </a>
+      </div>
       </section>
     </div>
     <img class="katiesha" src="siteimages/site-pic.png" alt="Portfolio" style="width:630px;height:572px;" />
@@ -66,7 +71,7 @@
 <main role="main">
   <section class="Project1">
     <div class="project1-left">
-      <img src="siteimages/Storytime.png" class="storytime1" />
+      <img src="siteimages/Storytime.png" class="storytime1" style="width:550px;height:390px;" />
     </div>
     <div class ="project1-right">
      <section class="project1-right-info">
@@ -76,16 +81,13 @@
         <li>#mobile</li>
         <li>#kidsapp</li>
       </ul>
-      <button class="button" style="vertical-align:middle"><span>view case study</span></button>
+      <button class="button" style="vertical-align:middle"><span>case study</span></button>
     </section>
    </div>
   </section>
 
   <!---PROJECT TWO-->
   <section class="Project2">
-    <div class="project2-right">
-     <img src="siteimages/Artsywood.png" class="artsywood1" />
-    </div>
     <div class="project2-left">
     <section class="project2-left-info">
         <h2>Artsywood</h2>
@@ -94,23 +96,28 @@
           <li>#invent</li>
           <li>#ecommerce</li>
         </ul>
-        <button class="button" style="vertical-align:middle"><span>view case study</span></button>
+        <button class="button" style="vertical-align:middle"><span>case study</span></button>
     </section>
-  </div>
+    </div>
+    <section class="project2-right-pic-section">
+      <img src="siteimages/Artsywood.png" class="artsywood1" style="width:550px;height:390px;" />
+    </section>
   </section>
 
   <!---PROJECT THREE-->
   <section class="Project3">
     <div class="project3-left">
-      <img src="siteimages/Blocbox.png" alt="Blocbox" />
+      <img src="siteimages/Blocbox.png" class="Blocbox3" style="width:550px;height:390px;" />
     </div>
     <div class="project3-right">
+      <div class="project3-right-info">
       <h2>Blocbox</h2>
       <ul>
        <li>#UI/UX</li>
        <li>#research</li>
       </ul>
-      <button class="button" style="vertical-align:middle"><span>view webpage</span></button>
+      <button class="button" style="vertical-align:middle"><span>webpage</span></button>
+    </div>
     </div>
   </section>
 
@@ -120,17 +127,17 @@
   <section class="profile-left">
    <div class="left-info">
     <img src="siteimages/Profile-pic.png" class="profile-picture" style="width:250px;height:350px;" />
-    <p>UX/UI Designer with frontend knowlege <br>focused designing pixel perfect, easy to use interfaces.</p>
-    <button class="button" style="vertical-align:middle"><span>more about me</span></button>
+    <p>UX/UI Designer with frontend knowlege focused designing pixel perfect, easy to use interfaces.</p>
+    <button class="profile-button" style="vertical-align:middle"><span>more about me</span></button>
    </div>
   </section>
 
   <!---SKILLS-->
 <section class="skills-right">
  <h2>My skills</h2>
-<button class="tablink" onclick="openPage('Design', this, '#FAF5EE')"id="defaultOpen">DESIGN</button>
-<button class="tablink" onclick="openPage('Software', this, '#FAF5EE')">SOFTWARE</button>
-<button class="tablink" onclick="openPage('Languages', this, '#FAF5EE')">LANGUAGES</button>
+<button class="tablink" onclick="openPage('Design', this, '#EEEEEE')"id="defaultOpen">DESIGN</button>
+<button class="tablink" onclick="openPage('Software', this, '#EEEEEE')">SOFTWARE</button>
+<button class="tablink" onclick="openPage('Languages', this, '#EEEEEE')">LANGUAGES</button>
 <div id="Design" class="tabcontent">
   <ul style="list-style-type:none">
   <li>Product Design</li>
@@ -158,25 +165,35 @@
  </ul>
 </div>
 </section>
-<br class="clearfix" />
+
 </div>
 
 <!--DESIGN ARROWS-->
-<!--<section class="design-element">
- <img src="siteimages/Downarrows.png" alt="down triangles">
+<section class="design-element">
+  <div class="blank-side"></div>
+  <div class="right-arrows">
+ <img src="siteimages/Downarrows.png" class="down-triangles">
+ </div>
 </section>
-</main>-->
+</main>
+
+<!--CONTACT ME SECTION-->
+<section class="contact">
+  <div class="contact-info">
+    <h1>Like what you see?</h1>
+    <p>lets work together!</p>
+    <button class="contact-btn">e-mail me</button>
+  </div>
+</section>
+
 
 <!--- Footer --->
-<!--<footer>
-  <section class="footer1">
-    <ul>
-      <li><img src="siteimages/site-logo.png" atl="Kmills" /></li>
-      <li>Designed by K.Mills</li>
-      <li class="btn-outline"><a href="contact.html">contact</a></li>
-    </ul>
-  </section>
-</footer>-->
-
+<footer>
+  <nav class="footer">
+      <ul>
+        <li>copyright © 2018 | designed by K.Mills</li>
+      </ul>
+</footer>
+<script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
