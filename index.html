@@ -3,6 +3,9 @@
 <head>
  <title>Katie Milligan | Portfoilio</title>
 
+ <!--button-->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!--GOOGLE FONTS-->
 <link href='https://fonts.googleapis.com/css?family=Cormorant+Garamond:400|Montserrat:300,400,500' rel="stylesheet" type='text/css'>
 
@@ -10,159 +13,187 @@
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/styles.css">
 
+<!--JAVASCRIPT-->
+
+
 </head>
 
 
 <body>
 
-<!---HERO---->
+<!--HERO-->
 <header>
-  <nav class="container">
-    <div class="one-half">
-      <a href="index.html" class="site-logo"><img src="siteimages/site-logo.png" atl="Kmills" /></a>
-    </div>
-    <div class="one-half">
-      <ul class="top-stuff">
-        <li><a href="about.html">about</a></li>
-        <li><a href="portfolio.html">portfolio</a></li>
-        <li><a href="designprocess.html">design process</a></li>
-        <li><a href="forfun.html">for fun</a></li>
-        <li><a href="contact.html">contact</a></li>
+  <!--NAVIGATION-->
+  <nav class="top-navigation">
+    <section class="top-nav">
+      <ul>
+        <li class="active"><img src="siteimages/site-logo.png" atl="Kmills" /></li>
+        <li class="btn-outline"><a href="about.html">about</a></li>
+        <li class="btn-outline"><a href="portfolio.html">portfolio</a></li>
+        <li class="btn-outline"><a href="designprocess.html">design process</a></li>
+        <li class="btn-outline"><a href="forfun.html">for fun</a></li>
+        <li class="btn-outline"><a href="contact.html">contact</a></li>
       </ul>
-    </div>
-  </nav>
-  <div class="container hero">
-    <h1>hello</h1>
-    <h3>I'm Katie Milligan</h3>
-      <div class="social media">
-        <img src="siteimages/Facebook.png" alt="Facebook" />
-        <img src="siteimages/Instagram.png" alt="Instragram" />
-        <img src="siteimages/Linkedin.png" alt="Linkedin" />
-        <img src="siteimages/Dribbble.png" alt="Dribbble" />
+     </section>
+   </nav>
+
+   <!--HERO INFO-->
+  <div class="hero">
+    <div class="hero-overlay">
+      <section class="left-info">
+        <h1>hello</h1>
+        <h3>I'm Katie Milligan</h3>
+      </section>
+      <section class="left-social-media">
+       <div class="social-media-info">
+        <a href="https://www.facebook.com/Katie0727">
+          <img src="siteimages/Facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/knmills_/">
+          <img src="siteimages/Instagram.png" alt="Instragram" />
+        </a>
+        <a href="https://dribbble.com/k_mills">
+          <img src="siteimages/Dribbble.png" alt="Dribbble" />
+        </a>
+        <a href="https://www.linkedin.com/in/katie-milligan-66986313b/">
+          <img src="siteimages/Linkedin.png" alt="Linkedin" />
+        </a>
       </div>
-    <img src="siteimages/site-pic.png" alt="Portfolio" />
+      </section>
     </div>
+    <img class="katiesha" src="siteimages/site-pic.png" alt="Portfolio" style="width:630px;height:572px;" />
+  </div>
 </header>
 
-<!---PROJECT SECTION--->
+  <!---PROJECT SECTION--->
 
 <!---PROJECT ONE--->
 <main role="main">
-<section class="Project1">
-  <div class="project1-left">
-    <div class="storytime-pic">
-     <img src="siteimages/Storytime.png" alt="Storytime" />
+  <section class="Project1">
+    <div class="project1-left">
+      <img src="siteimages/Storytime.png" class="storytime1" style="width:550px;height:390px;" />
     </div>
-  </div>
-  <div class ="project1-right">
-    <h2>StoryTime</h2>
-      <ul>
+    <div class ="project1-right">
+     <section class="project1-right-info">
+      <h2>StoryTime</h2>
+       <ul>
         <li>#UI/UX</li>
         <li>#mobile</li>
         <li>#kidsapp</li>
       </ul>
-      <div class="btn-outline"><a href="viewproject.html">VIEW PROJECT</a></div>
-  </div>
-</section>
+      <button class="button" style="vertical-align:middle"><span>case study</span></button>
+    </section>
+   </div>
+  </section>
 
-<!---PROJECT TWO-->
-<section class="Project2">
-  <div class="project2-right">
-    <div class="artsywood-pic">
-      <img src="siteimages/Artsywood.png" alt="Artsywood" />
+  <!---PROJECT TWO-->
+  <section class="Project2">
+    <div class="project2-left">
+    <section class="project2-left-info">
+        <h2>Artsywood</h2>
+        <ul>
+          <li>#UI/UX</li>
+          <li>#invent</li>
+          <li>#ecommerce</li>
+        </ul>
+        <button class="button" style="vertical-align:middle"><span>case study</span></button>
+    </section>
     </div>
-  </div>
-  <div class="project2-left">
-      <h2>Artsywood</h2>
+    <section class="project2-right-pic-section">
+      <img src="siteimages/Artsywood.png" class="artsywood1" style="width:550px;height:390px;" />
+    </section>
+  </section>
+
+  <!---PROJECT THREE-->
+  <section class="Project3">
+    <div class="project3-left">
+      <img src="siteimages/Blocbox.png" class="Blocbox3" style="width:550px;height:390px;" />
+    </div>
+    <div class="project3-right">
+      <div class="project3-right-info">
+      <h2>Blocbox</h2>
       <ul>
-        <li>#UI/UX</li>
-        <li>#invent</li>
-        <li>#ecommerce</li>
+       <li>#UI/UX</li>
+       <li>#research</li>
       </ul>
-      <div class="btn-outline"><a href="viewproject.html">VIEW PROJECT</a></div>
-  </div>
-</section>
-
-<!---PROJECT THREE-->
-<section class="Project3">
-  <div class="project3-left">
-    <img src="siteimages/Blocbox.png" alt="Blocbox" />
-  </div>
-  <div class="project3-right">
-    <h2>Blocbox</h2>
-    <ul>
-     <li>#UI/UX</li>
-     <li>#research</li>
-    </ul>
-    <div class="btn-outline"><a href="viewproject.html">VIEW PROJECT</a></div>
-  </div>
-</section>
-
-<!---PROFILE & SKILLS SECTION-->
-<div class="Profile-and-Skills">
-<!--PROFILE-->
-<section class="profile-left">
-  <img src="siteimages/Profile-pic.png" alt="Profile-picture" />
-  <p>UX/UI Designer with frontend knowlege focused designing pixel perfect, easy to use interfaces.</p>
-  <div class="btn-outline"><a href="viewproject.html">ABOUT ME</a></div>
-</section>
-
-<!---SKILLS-->
-  <section class="skills-right"
-    <div class="skills-container">
-      <h2>My Skills</h2>
-      <ul class="Skills-Type">
-        <li class="Design-Container">Design
-          <ul class="Design-Skills">
-            <li>product Design</li>
-            <li>interaction Design</li>
-            <li>prototyping</li>
-            <li>visual Design</li>
-            <li>user Research</li>
-            <li>usability Testing</li>
-          </ul>
-        </li>
-        <li class="Software-Container">Software
-          <ul class="Software-Types">
-            <li>sketch</li>
-            <li>adobe Illustrator</li>
-            <li>adobe Photoshop</li>
-            <li>balsamiq</li>
-          </ul>
-        </li>
-        <li class="Languages-Container">Software
-          <ul class="Language-Types">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
-        </li>
-      </ul>
+      <button class="button" style="vertical-align:middle"><span>webpage</span></button>
+    </div>
     </div>
   </section>
+
+  <!---PROFILE & SKILLS SECTION-->
+  <div class="Profile-and-Skills">
+  <!--PROFILE-->
+  <section class="profile-left">
+   <div class="left-info">
+    <img src="siteimages/Profile-pic.png" class="profile-picture" style="width:250px;height:350px;" />
+    <p>UX/UI Designer with frontend knowlege focused designing pixel perfect, easy to use interfaces.</p>
+    <button class="profile-button" style="vertical-align:middle"><span>more about me</span></button>
+   </div>
+  </section>
+
+  <!---SKILLS-->
+<section class="skills-right">
+ <h2>My skills</h2>
+<button class="tablink" onclick="openPage('Design', this, '#EEEEEE')"id="defaultOpen">DESIGN</button>
+<button class="tablink" onclick="openPage('Software', this, '#EEEEEE')">SOFTWARE</button>
+<button class="tablink" onclick="openPage('Languages', this, '#EEEEEE')">LANGUAGES</button>
+<div id="Design" class="tabcontent">
+  <ul style="list-style-type:none">
+  <li>Product Design</li>
+  <li>Interaction Design</li>
+  <li>Prototyping</li>
+  <li>Visual Design</li>
+  <li>User Research</li>
+  <li>Usability Testing</li>
+</ul>
+</div>
+<div id="Software" class="tabcontent">
+ <ul style="list-style-type:none">
+  <li>Sketch</li>
+  <li>Adobe Illustrator</li>
+  <li>Adobe Photoshop</li>
+  <li>Balsamiq</li>
+ </ul>
+</div>
+<div id="Languages" class="tabcontent">
+<ul style="list-style-type:none">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+  <li>JQuery</li>
+ </ul>
+</div>
+</section>
+
 </div>
 
 <!--DESIGN ARROWS-->
-<div class="design-element">
-  <img src="siteimages/Downarrows.png" alt="down triangles">
-</div>
+<section class="design-element">
+  <div class="blank-side"></div>
+  <div class="right-arrows">
+ <img src="siteimages/Downarrows.png" class="down-triangles">
+ </div>
+</section>
 </main>
 
-<!--- Footer --->
- <footer>
-  <div class="container footer-nav-block">
-    <div class="left-footer-block one-third">
-         <p class="copyright-block">&copy; 2018. <strong>K.Mills</strong> - All Rights Reserved.</p>
-    </div>
-    <nav class="link-block middle-footer-block one-third">
-      <ul>
-        <li><a href="">E-mail me</a></li>
-      </ul>
-   </nav>
-   <div class="right-footer-block one-third">
-      <img class="logo" src="siteimages/site-logo.png" alt="Portfolio" />
-   </div>
+<!--CONTACT ME SECTION-->
+<section class="contact">
+  <div class="contact-info">
+    <h1>Like what you see?</h1>
+    <p>lets work together!</p>
+    <button class="contact-btn">e-mail me</button>
   </div>
- </footer>
+</section>
+
+
+<!--- Footer --->
+<footer>
+  <nav class="footer">
+      <ul>
+        <li>copyright © 2018 | designed by K.Mills</li>
+      </ul>
+</footer>
+<script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
