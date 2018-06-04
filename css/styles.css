@@ -73,6 +73,8 @@ header nav ul > li.btn-outline:hover > a {
 .hero .katiesha  {
   display: block;
   margin: 40px auto 0;
+  width:630px;
+  height:572px;
 }
 
 /*FONT SIZE/TYPE*/
@@ -159,6 +161,11 @@ header nav ul > li.btn-outline:hover > a {
  float: left;
  padding: 5px;
 }
+.storytime1 {
+  width: 550px;
+  height: 390px;
+}
+
 
 
 
@@ -207,6 +214,10 @@ header nav ul > li.btn-outline:hover > a {
  float: right;
  padding: 5px;
 }
+.artsywood1 {
+  width: 550px;
+  height: 390px;
+}
 
 
 /*PROJECT THREE*/
@@ -248,6 +259,10 @@ header nav ul > li.btn-outline:hover > a {
  font-size: 18px;
  float:left;
  padding: 5px;
+}
+.Blocbox3 {
+  width: 550px;
+  height: 390px;
 }
 
 /*PROJECT BUTTONS*/
@@ -314,8 +329,10 @@ header nav ul > li.btn-outline:hover > a {
   padding-left: 56px;
   font-weight: lighter;
   margin-top: 5px;
-
-
+}
+.profile-picture {
+  width:250px;
+  height:350px;
 }
 
 /* profile button */
@@ -381,14 +398,15 @@ header nav ul > li.btn-outline:hover > a {
  width: 30%;
 }
 .tablink:hover {
- text-decoration: underline;
- text-decoration-color: #D99D53;
+  text-decoration: underline;
+  text-decoration-color: #D99D53;
 }
 .tabcontent {
- color: #000000;
- display: none;
- padding: 60px 20px;
- height: 50%;
+  background-image: url("http://siteimages/goldbackground.png");
+  color: #000000;
+  display: none;
+  padding: 60px 20px;
+ height: 25%;
  font-weight: lighter;
 }
 .tabcontent ul {
@@ -506,28 +524,946 @@ footer nav ul > li {
   margin-right: 296px;
 }
 
-/*MEDIA QUERIES*/
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
+
+/********************* PAGE 2: ABOUT PAGE *************************/
+.bio-hero{
+  background: #FFFFFF;
+}
+.bio-hero .hero-overlay {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+.bio-hero .left-info {
+  margin-top: 228px;
+  width: 40%;
+  height: 70px;
+  text-align: center;
+}
+.bio-hero .left-info h1 {
+  font-size: 40px;
+  font-weight:lighter;
+  margin: 0;
+  color: #000000;
+}
+.bio-hero .left-info h3 {
+  font-size: 28px;
+  line-height: 10px;
+  font-weight: medium;
+  color: #D99D53;
+  margin:5px 0 40px;
+}
+.bio-hero .katiesha-bio-pic  {
+  display: block;
+  padding-left: 650px;
+  margin-bottom: -50px;
+}
+h4{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 34px;
+  color: #D99D53;
+  margin-bottom: 0px;
+}
+.bio-info {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.bio-info-left{
+  flex: 50%;
+  background: #F2E2E2;
+}
+ .left-wording{
+   margin: 50px;
+   width: 480px;
+ }
+.bio-info-right{
+  flex: 50%;
+  background: #F1F1F1;
+}
+.bio-info-right h4{
+  margin-left: 50px;
+}
+.right-wording{
+  margin: 50px;
+  width: 480px;
+}
+.right-wording p{
+  margin-left: 50px;
+}
+.bio-info p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  width: 392px;
+  font-weight: lighter;
+  margin-top: 0px;
+}
+
+
+
+.contact-bio {
+  background: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+.contact-bio:before, .contact-bio:after {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+.contact-bio:before {
+  top: 0;
+  -webkit-transform: skewY(1.5deg);
+          transform: skewY(1.5deg);
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
+}
+.contact-bio:after {
+  bottom: 35px;
+  -webkit-transform: skewY(-1.5deg);
+          transform: skewY(-1.5deg);
+  -webkit-transform-origin: 100%;
+          transform-origin: 100%;
+}
+
+.contact-bio {
+  color: #D99D53;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 10px;
+  text-align: center;
+}
+.contact-bio h1{
+  font-family: 'Cormorant Garamond', serif;
+  color: #D99D53;
+  font-size: 65px;
+  margin: 50px 0 5px 0;
+}
+
+
+
+
+
+/********************* PAGE 2: ABOUT PAGE *************************/
+
+
+
+/*****************MEDIA QUERIES************************/
+@media screen and (min-width : 320px) and (max-width : 479px)  {
+h2 {
+  font-size: 15px;
+  }
+header nav ul > li {
+  font-size: 12px;
+}
+header nav ul {
+    padding: 5px;
+}
+header nav ul > li > a {
+  padding: 12px 12px;
+}
+.hero .katiesha {
+   width: 230px;
+    height: 180px;
+    margin: 10px auto 0;
+}
+.hero .hero-overlay {
+  top: 65px;
+}
+.hero .left-info{
+  width: 25%;
+  height: 40px;
+}
+.hero .left-info h1{
+  font-size: 22px;
+}
+.hero .left-info h3{
+  font-size: 10px;
+  line-height: 5px;
+}
+.hero .left-social-media {
+  height: 28px;
+  width: 31%;
+  padding-left: 1px;
+}
+.Project1 {
+  height: 150px;
+}
+.project1-left {
+  flex: 60;
+  background-color: #FFFFFF;
+  margin-top: -15px;
+  width: 121px;
+}
+.project1-right {
+  flex: 40;
+  background-color: #E7E1D3;
+  text-align: right;
+  width: 121px;
+}
+.storytime1 {
+  width: 160px;
+  height: 115px;
+  margin: 32px -20px 32px 55px;
+}
+
+.project1-right ul {
+  margin-left: -21px;
+}
+.project1-right h2 {
+  font-size: 15px;
+  margin: 5px;
+}
+.project1-right-info {
+  padding: 20px;
+  width: 115px;
+  height: 115px;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+.project1-right ul > li {
+  font-size: 5px;
+  padding: 2px;
+}
+.Project2 {
+  height: 150px;
+}
+.project2-left {
+  flex: 80;
+  background-color: #F4E9E7;
+  width: 250px;
+}
+.project2-right {
+  flex: 20;
+  background-color: #FFFFFF;
+  text-align: right;
+  width: 70px;
+}
+.artsywood1 {
+  width: 160px;
+  height: 115px;
+  margin: 20px -20px 20px -110px;
+}
+.project2-left ul {
+  margin-left: 16px;
+}
+.project2-left h2 {
+  font-size: 15px;
+  margin: 5px;
+}
+.project2-left-info {
+  padding: 20px;
+  width: 115px;
+  height: 115px;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+.project2-left ul > li {
+  font-size: 5px;
+  padding: 2px;
+  float: left;
+}
+.Project3 {
+  height: 150px;
+}
+.Blocbox3 {
+  width: 160px;
+  height: 115px;
+  margin: 32px -20px 32px 55px;
+}
+.project3-left{
+  height: 150px;
+  width: 68%;
+}
+.project3-right{
+  height: 150px;
+  width: 32%;
+}
+.project3-right-info {
+  padding: 20px;
+  width: 115px;
+  height: 115px;
+  margin-top: 5px;
+  margin-left: -28px;
+}
+.project3-right ul > li {
+  font-size: 5px;
+  padding: 2px;
+}
+.project3-right ul {
+  margin-left: 30px;
+  padding-left: 0px;
+}
+.project3-right h2 {
+  font-size: 15px;
+  margin: 5px;
+}
+.profile-picture {
+  width: 100px;
+  height: 150px;
+  margin: 10px 0 10px 5px;
+}
+.left-info p{
+  width: 110px;
+  padding: 5px 5px 5px 5px;
+  font-size: 10px;
+}
+.profile-left {
+  width: 40%;
+}
+.skills-right {
+  width: 60%;
+}
+.tablink {
+  padding: 8px 2px;
+  font-size: 9px;
+  width: 32%;
+}
+.tabcontent {
+  height: 52%;
+  padding: 10px 3px;
+}
+.tabcontent ul {
+  margin: -30px;
+  line-height: 135%;
+  margin-top: 20px;
+}
+.tabcontent li {
+  font-size: 9px;
+}
+.blank-side{
+  width: 40%;
+}
+.right-arrows {
+  width: 90px;
+}
+.down-triangles {
+  margin: 25px 10px 10px 62px;
+}
+.contact {
+  height: 150px;
+}
+.contact-info {
+    width: 100%;
+    margin: 10px;
+}
+.contact-info h1 {
+  font-size: 28px;
+}
+.contact-info p {
+  font-size: 18px;
+}
+.footer {
+  height: 30px;
+}
+footer nav ul {
+  margin: 2px 0 2px 0px;
+  padding: 5px;
+}
+footer nav ul > li {
+  font-size: 8px;
+  margin-right: 0px;
+  margin-top: 5px;
+}
+.contact-btn {
+    margin: 10px;
+    height: 40px;
+    font-size: 0.6em;
+}
+.profile-button {
+  margin: 10px;
+  font-size: 8px;
+  width: 90px;
+  padding: 8px;
+  margin: 10px 0 10px 5px;
+}
+.button {
+  margin: 10px;
+  font-size: 8px;
+  width: 90px;
+  padding: 8px;
+}
+}
+
+
+    /* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) and (max-width : 768px) {
+h2 {
+  font-size: 22px;
+}
+header nav ul > li {
+  font-size: 12px;
+}
+header nav ul {
+  padding: 5px;
+}
+header nav ul > li > a {
+  padding: 12px 30px;
+}
+.hero .katiesha {
+  width: 270px;
+  height: 182px;
+  margin: 10px auto 0;
+  }
+  .hero .hero-overlay {
+    top: 65px;
+  }
+  .hero .left-info{
+    width: 25%;
+    height: 40px;
+  }
+  .hero .left-info h1{
+    font-size: 24px;
+  }
+  .hero .left-info h3{
+    font-size: 12px;
+    line-height: 0px;
+  }
+  .hero .left-social-media {
+    height: 32px;
+    width: 21%;
+    padding-left: 1px;
+    margin: 10px 0 40px;
+  }
+  .Project1 {
+    height: 150px;
+  }
+  .project1-left {
+    flex: 60;
+    background-color: #FFFFFF;
+    margin-top: -15px;
+    width: 121px;
+  }
+  .project1-right {
+    flex: 40;
+    background-color: #E7E1D3;
+    text-align: right;
+    width: 121px;
+  }
+  .storytime1 {
+    width: 160px;
+    height: 115px;
+    margin: 32px -20px 32px 55px;
+  }
+
+  .project1-right ul {
+    margin-left: -28px;
+  }
+  .project1-right h2 {
+    font-size: 15px;
+    margin: 5px;
+  }
+  .project1-right-info {
+    padding: 10px;
+    width: 136px;
+    height: 115px;
+    margin-top: 21px;
+    margin-left: 8px;
+  }
+  .project1-right ul > li {
+    font-size: 8px;
+    padding: 2px;
+  }
+  .Project2 {
+    height: 150px;
+  }
+  .project2-left {
+    flex: 80;
+    background-color: #F4E9E7;
+    width: 250px;
+  }
+  .project2-right {
+    flex: 20;
+    background-color: #FFFFFF;
+    text-align: right;
+    width: 70px;
+  }
+  .artsywood1 {
+    width: 160px;
+    height: 115px;
+    margin: 20px -20px 20px -110px;
+  }
+  .project2-left ul {
+    margin-left: 16px;
+  }
+  .project2-left h2 {
+    font-size: 15px;
+    margin: 5px;
+  }
+  .project2-left-info {
+    padding: 20px;
+    width: 153px;
+    height: 115px;
+    margin-top: 5px;
+    margin-left: 35px;
+  }
+  .project2-left ul > li {
+    font-size: 8px;
+    padding: 2px;
+    float: left;
+  }
+  .Project3 {
+    height: 150px;
+  }
+  .Blocbox3 {
+    width: 160px;
+    height: 115px;
+    margin: 32px -20px 32px 55px;
+  }
+  .project3-left{
+    height: 150px;
+    width: 68%;
+  }
+  .project3-right{
+    height: 150px;
+    width: 32%;
+  }
+  .project3-right-info {
+    padding: 20px;
+    width: 106px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: -50px;
+  }
+  .project3-right ul > li {
+    font-size: 8px;
+    padding: 2px;
+  }
+  .project3-right ul {
+    margin-left: 17px;
+    padding-left: 0px;
+  }
+  .project3-right h2 {
+    font-size: 15px;
+    margin: 5px;
+  }
+  .profile-picture {
+    width: 100px;
+    height: 150px;
+    margin: 10px 0 10px 5px;
+  }
+  .left-info p{
+    width: 90%;
+    padding: 5px 5px 5px 5px;
+    font-size: 10px;
+  }
+  .profile-left {
+    width: 40%;
+  }
+  .skills-right {
+    width: 60%;
+  }
+  .tablink {
+    padding: 8px 2px;
+    font-size: 9px;
+    width: 32%;
+  }
+  .tabcontent {
+    height: 52%;
+    padding: 10px 3px;
+  }
+  .tabcontent ul {
+    margin: -30px;
+    line-height: 135%;
+    margin-top: 20px;
+  }
+  .tabcontent li {
+    font-size: 9px;
+  }
+  .blank-side{
+    width: 40%;
+  }
+  .right-arrows {
+    width: 90px;
+  }
+  .down-triangles {
+    margin: 25px 10px 10px 62px;
+  }
+  .contact {
+    height: 150px;
+  }
+  .contact-info {
+      width: 100%;
+      margin: 10px;
+  }
+  .contact-info h1 {
+    font-size: 28px;
+  }
+  .contact-info p {
+    font-size: 18px;
+  }
+  .footer {
+    height: 30px;
+  }
+  footer nav ul {
+    margin: 2px 0 2px 0px;
+    padding: 5px;
+  }
+  footer nav ul > li {
+    font-size: 8px;
+    margin-right: 0px;
+    margin-top: 5px;
+  }
+  .contact-btn {
+      margin: 10px;
+      height: 40px;
+      font-size: 0.6em;
+  }
+  .profile-button {
+    margin: 10px;
+    font-size: 8px;
+    width: 90px;
+    padding: 8px;
+    margin: 10px 0 10px 5px;
+  }
+  .button {
+    margin: 10px;
+    font-size: 8px;
+    width: 90px;
+    padding: 8px;
   }
 }
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
+
+    /* Small Devices, Tablets */
+@media only screen and (min-width : 769px) and (max-width : 991px) {
+  h2 {
+    font-size: 24px;
   }
-  .one-half {
-    width:46%;
+  header nav ul > li {
+    font-size: 14px;
   }
-  .one-third {
-    width:29.33333%;
+  header nav ul {
+    padding: 10px;
   }
-  .one-fourth {
-    width:21%;
+  header nav ul > li > a {
+    padding: 12px 30px;
   }
+.hero .katiesha {
+  width: 445px;
+  height: 330px;
+  margin: 10px auto 0;
 }
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
+.hero .hero-overlay {
+  top: 110px;
 }
+.hero .left-info{
+  width: 25%;
+  height: 65px;
+}
+.hero .left-info h1{
+  font-size: 40px;
+}
+.hero .left-info h3{
+  font-size: 18px;
+  line-height: 0px;
+}
+.hero .left-social-media {
+  height: 32px;
+  width: 13%;
+  padding-left: 1px;
+  margin: 10px 0 40px;
+}
+.Project1 {
+  height: 250px;
+}
+.project1-left {
+      flex: 60;
+      background-color: #FFFFFF;
+      margin-top: -30px;
+      width: 121px;
+    }
+    .project1-right {
+      flex: 40;
+      background-color: #E7E1D3;
+      text-align: right;
+      width: 121px;
+    }
+.storytime1 {
+  width: 325px;
+  height: 225px;
+  margin: 37px 0 0px 160px;
+}
+.project1-right ul {
+  margin-left: -28px;
+}
+.project1-right h2 {
+  font-size: 30px;
+  margin: 5px;
+}
+.project1-right-info {
+  padding: 10px;
+  width: 184px;
+  height: 115px;
+  margin-top: 55px;
+  margin-left: 55px;
+}
+.project1-right ul > li {
+  font-size: 12px;
+  padding: 3px;
+}
+.Project2 {
+  height: 250px;
+}
+.project2-left {
+      flex: 80;
+      background-color: #F4E9E7;
+      width: 250px;
+    }
+    .project2-right {
+      flex: 20;
+      background-color: #FFFFFF;
+      text-align: right;
+      width: 70px;
+    }
+    .artsywood1 {
+      width: 325px;
+      height: 225px;
+      margin: 16px 57px 20px -121px;
+    }
+    .project2-left ul {
+      margin-left: -18px;
+    }
+    .project2-left h2 {
+      font-size: 30px;
+      margin: 5px;
+    }
+    .project2-left-info {
+      padding: 20px;
+      width: 153px;
+      height: 115px;
+      margin-top: 55px;
+      margin-left: 140px;
+    }
+    .project2-left ul > li {
+      font-size: 12px;
+      padding: 3px;
+      float: left;
+    }
+    .Project3 {
+      height: 250px;
+    }
+    .Blocbox3 {
+      width: 325px;
+      height: 225px;
+      margin: 36px  116px 55px;
+    }
+    .project3-left{
+      height: 270px;
+      width: 68%;
+    }
+    .project3-right{
+      height: 270px;
+      width: 32%;
+    }
+    .project3-right-info {
+      padding: 20px;
+      width: 135px;
+      height: 115px;
+      margin-top: 40px;
+      margin-left: 44px;
+    }
+    .project3-right ul > li {
+      font-size: 12px;
+      padding: 3px;
+    }
+    .project3-right ul {
+      margin-left: 8px;
+      padding-left: 0px;
+    }
+    .project3-right h2 {
+      font-size: 30px;
+      margin: 5px;
+    }
+    .profile-picture {
+      width: 100px;
+      height: 150px;
+      margin: 10px 0 10px 5px;
+    }
+    .left-info p{
+      width: 90%;
+      padding: 5px 5px 5px 5px;
+      font-size: 12px;
+    }
+    .profile-left {
+      width: 40%;
+    }
+    .skills-right {
+      width: 60%;
+      margin-top: -30px;
+    }
+    .tablink {
+      padding: 8px 2px;
+      font-size: 9px;
+      width: 32%;
+    }
+    .tabcontent {
+      height: 52%;
+      padding: 10px 3px;
+    }
+    .tabcontent ul {
+      margin: -30px;
+      line-height: 135%;
+      margin-top: 20px;
+    }
+  .tabcontent li {
+    font-size: 12px;
+    }
+  .blank-side{
+    width: 40%;
+    }
+  .right-arrows {
+    width: 90px;
+    margin-top: -68px;
+    }
+  .down-triangles {
+    margin: 25px 10px 10px 135px;
+    }
+  .contact {
+    height: 150px;
+    }
+  .contact-info {
+    width: 100%;
+    margin: 10px;
+    }
+  .contact-info h1 {
+    font-size: 28px;
+    }
+  .contact-info p {
+    font-size: 18px;
+    }
+  .footer {
+    height: 30px;
+    }
+  footer nav ul {
+    margin: 2px 0 2px 0px;
+    padding: 5px;
+    }
+  footer nav ul > li {
+    font-size: 10px;
+    margin-right: 0px;
+    margin-top: 5px;
+    }
+  .contact-btn {
+    margin: 10px;
+    height: 40px;
+    font-size: 0.6em;
+    }
+ .profile-button {
+  margin: 10px;
+  font-size: 8px;
+  width: 90px;
+  padding: 8px;
+  margin: 10px 0 10px 5px;
+    }
+.button {
+  margin: 10px;
+  font-size: 12px;
+  width: 110px;
+  padding: 12px;
+}
+}
+
+
+    /* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+  .hero .left-social-media {
+    width: 10%
+ }
+ .storytime1 {
+     width: 500px;
+     height: 345px;
+    margin: 80px -10px 50px 124px;
+ }
+ .artsywood1 {
+    width: 500px;
+    height: 345px;
+    margin: 50px 73px 50px -150px;
+  }
+  .project2-left-info {
+    margin-left: 27px;
+  }
+  .Blocbox3 {
+    width: 500px;
+    height: 345px;
+    margin: 70px 0 50px 30px;
+  }
+  .project3-right {
+    width: 40%;
+  }
+  .project3-right-info {
+    margin: 120px 50px 50px 22px;
+  }
+  .project3-left {
+    width: 60%;
+  }
+  .left-info p{
+    width: 90%;
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+  }
+  .profile-left {
+    width: 40%;
+  }
+  .skills-right {
+    width: 60%;
+    margin-top: -30px;
+  }
+  .tablink {
+    padding: 15px 2px;
+    font-size: 12px;
+    width: 32%;
+  }
+  .tabcontent {
+    height: 52%;
+    padding: 10px 3px;
+  }
+  .tabcontent ul {
+    margin: -30px;
+    line-height: 200%;
+    margin-top: 50px;
+  }
+.tabcontent li {
+  font-size: 14px;
+  }
+.blank-side{
+  width: 40%;
+  }
+.right-arrows {
+  flex: 70;
+  width: 90px;
+  margin-top: -210px;
+  }
+.down-triangles {
+  margin: 50px 250px;
+  }
+.contact {
+    height: 250px;
+}
+.contact-info {
+    width: 100%;
+    margin: 10px;
+    }
+.footer {
+  height: 96px;
+    }
+footer nav ul {
+  margin: 2px 0 2px 0px;
+  padding: 35px;
+}
+  footer nav ul > li {
+    font-size: 12px;
+    margin-right: 0px;
+    margin-top: 5px;
+    }
+}
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
