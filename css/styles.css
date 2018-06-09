@@ -528,9 +528,6 @@ footer nav ul > li {
   font-size: 14px;
   margin-right: 296px;
 
-
-
-
 /********************* PAGE 2: ABOUT PAGE *************************/
 .bio-hero{
   background: #FFFFFF;
@@ -608,7 +605,6 @@ h4{
   font-weight: lighter;
   margin-top: 0px;
 }
-
 .contact-bio {
   background: #FFFFFF;
   position: relative;
@@ -651,11 +647,6 @@ h4{
   font-size: 65px;
   margin: 50px 0 5px 0;
 }
-
-/********************* CONTACT POP UP PAGE *************************/
-
-
-
 
 /*****************MEDIA QUERIES************************/
 @media screen and (min-width : 320px) and (max-width : 479px)  {
