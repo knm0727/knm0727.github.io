@@ -1548,10 +1548,10 @@ header nav ul > li > a {
     width: 90%;
     padding: 5px 5px 5px 5px;
     font-size: 12px;
-  }
+}
 .profile-left {
   width: 40%;
-  }
+}
 .skills-right {
   width: 60%;
   margin-top: -30px;
@@ -1634,22 +1634,22 @@ footer nav ul > li {
     line-height: 30px;
     width: 330px;
   }
-  .bio-info h4 {
-   font-size: 24px;
-   }
-   .bio-info-right h4 {
-    margin-left: 47px;
-    }
-  .left-wording {
-    width: 330px;
-    margin: 40px 20px 30px;
-  }
-  .right-wording {
-    width: 200px;
-    margin: 40px -10px 20px;
-  }
-  .contact-bio h1 {
-    font-size: 40px;
-    margin: 10px 0 5px 0;
-  }
+.bio-info h4 {
+  font-size: 24px;
+}
+.bio-info-right h4 {
+  margin-left: 47px;
+}
+.left-wording {
+  width: 330px;
+  margin: 40px 20px 30px;
+}
+.right-wording {
+  width: 200px;
+  margin: 40px -10px 20px;
+}
+.contact-bio h1 {
+  font-size: 40px;
+  margin: 10px 0 5px 0;
+}
 }
