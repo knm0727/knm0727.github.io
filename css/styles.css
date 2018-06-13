@@ -1464,12 +1464,12 @@ height: 90%;
  height: 100%;
 }
 .artsywoodonelogopic{
-   width: 50%;
+   width: 60%;
    margin-left: 70px;
 }
 .button-section {
    height: 150px;
-   margin-left: 0px;
+   margin-left: 32px;
 }
 }
 
@@ -2520,7 +2520,3 @@ footer nav ul {
    margin: 10px 0 5px 0;
  }
 }
-   /* Large Devices, Wide Screens */
-   @media only screen and (min-width : 1200px) {
-
-   }
