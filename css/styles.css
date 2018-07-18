@@ -16,7 +16,11 @@ header nav ul {
 }
 header nav ul > li {
  font-size: 18px;
- float: left;
+ float: right;
+}
+header nav ul .logo {
+  padding: 0;
+  float: left;
 }
 header nav ul > li > a {
  color:#D99D53;
@@ -41,7 +45,7 @@ header nav ul > li.btn-outline:hover > a {
 .hero .left-info {
  background: #FFFFFF;
  width: 20%;
- height: 105px;
+ height: 150px;
  text-align: center;
 }
 .hero .left-info h1 {
@@ -55,7 +59,14 @@ header nav ul > li.btn-outline:hover > a {
  line-height: 10px;
  font-weight: medium;
  color: #D99D53;
- margin:5px 0 40px;
+ margin:5px 0 12px;
+}
+.hero .left-info h2 {
+ font-size: 30px;
+ line-height: 40px;
+ font-weight: medium;
+ color: #000000;
+ margin:5px 10px 7px;
 }
 .hero .left-social-media {
  background: #FFFFFF;
@@ -1020,7 +1031,19 @@ right: 0
  color:inherit;
 }
 
-
+/*****************RESUME************************/
+.resume{
+  background: #F4E9E7;
+}
+.resume h2{
+  text-align: center;
+}
+.resume img{
+  width: 60%;
+  height: 30%;
+  margin-left: 20%;
+  margin-top: 40px;
+}
 
 /*****************MEDIA QUERIES************************/
 @media screen and (min-width : 320px) and (max-width : 479px)  {
@@ -1037,35 +1060,40 @@ header nav ul > li > a {
  padding: 12px 12px;
 }
 .hero .katiesha {
-  width: 230px;
-   height: 180px;
+  width: 180px;
+   height: 150px;
    margin: 10px auto 0;
 }
 .hero .hero-overlay {
- top: 65px;
+ top: 25px;
 }
 .hero .left-info{
- width: 25%;
- height: 40px;
+ width: 144px;
+ height: 65px;
 }
 .hero .left-info h1{
- font-size: 22px;
+ font-size: 30px;
 }
 .hero .left-info h3{
- font-size: 10px;
+ font-size: 15px;
+ line-height: 5px;
+}
+.hero .left-info h2{
+ font-size: 16px;
  line-height: 5px;
 }
 .hero .left-social-media {
- height: 28px;
- width: 31%;
- padding-left: 1px;
+ height: 31px;
+ width:124px;
+ padding-left: 20px;
+ margin: 0px 0 40px;
 }
 .Project1 {
  height: 150px;
 }
 .project1-left {
  flex: 60;
- background-color: #FFFFFF;
+ background-color: #E7E1D3;
  margin-top: -15px;
  width: 121px;
 }
@@ -1076,27 +1104,26 @@ header nav ul > li > a {
  width: 121px;
 }
 .storytime1 {
- width: 160px;
- height: 115px;
- margin: 32px -20px 32px 55px;
+ width: 90%;
+ height: 90%;
+ margin: 10px -20px 32px 25px;
 }
-
 .project1-right ul {
- margin-left: -21px;
+ margin-left: -25px;
 }
 .project1-right h2 {
- font-size: 15px;
+ font-size: 20px;
  margin: 5px;
 }
 .project1-right-info {
  padding: 20px;
- width: 115px;
+ width: 140px;
  height: 115px;
  margin-top: 5px;
  margin-left: -10px;
 }
 .project1-right ul > li {
- font-size: 5px;
+ font-size: 8px;
  padding: 2px;
 }
 .Project2 {
@@ -1109,67 +1136,71 @@ header nav ul > li > a {
 }
 .project2-right {
  flex: 20;
- background-color: #FFFFFF;
+ background-color: #F4E9E7;
  text-align: right;
  width: 70px;
 }
+.project2-right-pic-section {
+ flex: 20;
+ background-color: #F4E9E7;
+}
 .artsywood1 {
- width: 160px;
- height: 115px;
- margin: 20px -20px 20px -110px;
+ width: 260%;
+ height: 90%;
+ margin: 10px -24px 13px -160px;
 }
 .project2-left ul {
  margin-left: 16px;
 }
 .project2-left h2 {
- font-size: 15px;
+ font-size: 20px;
  margin: 5px;
 }
 .project2-left-info {
  padding: 20px;
- width: 115px;
+ width: 160px;
  height: 115px;
  margin-top: 5px;
  margin-left: -10px;
 }
 .project2-left ul > li {
- font-size: 5px;
+ font-size: 8px;
  padding: 2px;
  float: left;
 }
 .Project3 {
- height: 150px;
+ height: 180px;
 }
 .Blocbox3 {
- width: 160px;
- height: 115px;
- margin: 32px -20px 32px 55px;
+ width: 75%;
+ height: 82%;
+ margin: 30px -20px 32px 39px;
 }
 .project3-left{
- height: 150px;
+ height: 180px;
  width: 68%;
 }
 .project3-right{
- height: 150px;
+ height: 180px;
  width: 32%;
 }
 .project3-right-info {
  padding: 20px;
  width: 115px;
- height: 115px;
- margin-top: 5px;
- margin-left: -28px;
+ height: 84px;
+ margin-top: 10px;
+ margin-left: -34px;
 }
 .project3-right ul > li {
- font-size: 5px;
+ font-size: 8px;
  padding: 2px;
 }
 .project3-right ul {
- margin-left: 30px;
+ margin-left: 18px;
  padding-left: 0px;
 }
 .project3-right h2 {
- font-size: 15px;
+ font-size: 20px;
  margin: 5px;
 }
 .profile-picture {
@@ -1207,12 +1238,14 @@ header nav ul > li > a {
 }
 .blank-side{
  width: 40%;
+ height: 42px;
 }
 .right-arrows {
  width: 90px;
+ height: 143px;
 }
 .down-triangles {
- margin: 25px 10px 10px 62px;
+ margin: 15px 96px;
 }
 .contact {
  height: 150px;
@@ -1488,23 +1521,27 @@ header nav ul > li > a {
  padding: 12px 30px;
 }
 .hero .katiesha {
- width: 270px;
- height: 182px;
- margin: 10px auto 0;
- }
+  width: 190px;
+   height: 160px;
+   margin: 10px auto 0;
+}
  .hero .hero-overlay {
-   top: 65px;
+   top: 15px;
  }
  .hero .left-info{
-   width: 25%;
-   height: 40px;
+   width: 29%;
+   height: 75px;
  }
  .hero .left-info h1{
-   font-size: 24px;
+   font-size: 30px;
  }
  .hero .left-info h3{
-   font-size: 12px;
+   font-size: 15px;
    line-height: 0px;
+ }
+ .hero .left-info h2{
+   font-size: 18px;
+   line-height: 18px;
  }
  .hero .left-social-media {
    height: 32px;
@@ -1528,31 +1565,31 @@ header nav ul > li > a {
    width: 121px;
  }
  .storytime1 {
-   width: 160px;
-   height: 115px;
-   margin: 32px -20px 32px 55px;
+   width: 61%;
+   height: 95%;
+   margin: 9px 73px 55px;
  }
 
  .project1-right ul {
    margin-left: -28px;
  }
  .project1-right h2 {
-   font-size: 15px;
+   font-size: 25px;
    margin: 5px;
  }
  .project1-right-info {
    padding: 10px;
-   width: 136px;
+   width: 154px;
    height: 115px;
-   margin-top: 21px;
-   margin-left: 8px;
+   margin-top: 15px;
+   margin-left: 55px;
  }
  .project1-right ul > li {
-   font-size: 8px;
+   font-size: 10px;
    padding: 2px;
  }
  .Project2 {
-   height: 150px;
+   height: 180px;
  }
  .project2-left {
    flex: 80;
@@ -1566,62 +1603,62 @@ header nav ul > li > a {
    width: 70px;
  }
  .artsywood1 {
-   width: 160px;
-   height: 115px;
-   margin: 20px -20px 20px -110px;
+   width: 150%;
+   height: 90%;
+   margin: 12px -20px 20px -118px;
  }
  .project2-left ul {
    margin-left: 16px;
  }
  .project2-left h2 {
-   font-size: 15px;
+   font-size: 25px;
    margin: 5px;
  }
  .project2-left-info {
    padding: 20px;
-   width: 153px;
+   width: 185px;
    height: 115px;
-   margin-top: 5px;
-   margin-left: 35px;
+   margin-top: 18px;
+   margin-left: 90px;
  }
  .project2-left ul > li {
-   font-size: 8px;
+   font-size: 10px;
    padding: 2px;
    float: left;
  }
  .Project3 {
-   height: 150px;
+   height: 200px;
  }
  .Blocbox3 {
-   width: 160px;
-   height: 115px;
-   margin: 32px -20px 32px 55px;
+   width: 50%;
+   height: 80%;
+   margin: 32px -20px 32px 77px;
  }
  .project3-left{
-   height: 150px;
+   height: 200px;
    width: 68%;
  }
  .project3-right{
-   height: 150px;
+   height: 190px;
    width: 32%;
  }
  .project3-right-info {
    padding: 20px;
-   width: 106px;
-   height: 80px;
-   margin-top: 5px;
-   margin-left: -50px;
+   width: 110px;
+   height: 92px;
+   margin-top: 20px;
+   margin-left: 5px;
  }
  .project3-right ul > li {
-   font-size: 8px;
+   font-size: 10px;
    padding: 2px;
  }
  .project3-right ul {
-   margin-left: 17px;
+   margin-left: 9px;
    padding-left: 0px;
  }
  .project3-right h2 {
-   font-size: 15px;
+   font-size: 25px;
    margin: 5px;
  }
  .profile-picture {
@@ -1646,7 +1683,7 @@ header nav ul > li > a {
    width: 32%;
  }
  .tabcontent {
-   height: 52%;
+   height: 55%;
    padding: 10px 3px;
  }
  .tabcontent ul {
@@ -1662,9 +1699,10 @@ header nav ul > li > a {
  }
  .right-arrows {
    width: 90px;
+   margin-top: -70px;
  }
  .down-triangles {
-   margin: 25px 10px 10px 62px;
+   margin: 25px 10px 10px 122px;
  }
  .contact {
    height: 150px;
@@ -1951,7 +1989,7 @@ header nav ul > li > a {
 }
 .hero .left-info{
  width: 25%;
- height: 65px;
+ height: 92px;
 }
 .hero .left-info h1{
  font-size: 40px;
@@ -1959,6 +1997,10 @@ header nav ul > li > a {
 .hero .left-info h3{
  font-size: 18px;
  line-height: 0px;
+}
+.hero .left-info h2{
+ font-size: 25px;
+ line-height: 20px;
 }
 .hero .left-social-media {
  height: 32px;
@@ -2100,7 +2142,7 @@ header nav ul > li > a {
      width: 32%;
    }
    .tabcontent {
-     height: 52%;
+     height: 54%;
      padding: 10px 3px;
    }
    .tabcontent ul {
@@ -2380,6 +2422,7 @@ margin-top: 40px;
 }
 
 
+
    /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) and (max-width : 1199px) {
  .hero .left-social-media {
@@ -2448,6 +2491,7 @@ margin-top: 40px;
  flex: 70;
  width: 90px;
  margin-top: -210px;
+ z-index: 0;
  }
 .down-triangles {
  margin: 50px 250px;
@@ -2519,4 +2563,10 @@ footer nav ul {
    font-size: 40px;
    margin: 10px 0 5px 0;
  }
+}
+
+@media only screen and (min-width : 1199px) and (max-width : 2500px) {
+.tabcontent {
+  height: 57%;
+}
 }
