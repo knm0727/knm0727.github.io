@@ -43,6 +43,10 @@ a:active {
 	background: rgba(0,0,0,0.01);
 }
 
+.container > header img {
+	width: 60%;
+}
+
 .container > header h1 {
 	color: #000000;
 	font-size: 2.625em;
@@ -486,39 +490,9 @@ h4{
  margin-bottom: 0px;
 }
 .bio-info {
- display: flex;
- position: relative;
- z-index: 1;
-}
-.bio-info-left{
- flex: 50%;
- background: #F2E2E2;
-}
-.left-wording{
-  margin: 50px;
-  width: 480px;
-}
-.bio-info-right{
- flex: 50%;
- background: #F1F1F1;
-}
-.bio-info-right h4{
- margin-left: 50px;
-}
-.right-wording{
- margin: 50px;
- width: 480px;
-}
-.right-wording p{
- margin-left: 50px;
-}
-.bio-info p{
- font-family: 'Montserrat', sans-serif;
- font-size: 20px;
- line-height: 40px;
- width: 392px;
- font-weight: lighter;
- margin-top: 0px;
+ width: 65%;
+ margin: 50px auto 50px;
+ display: block;
 }
 .contact-bio {
  background: #FFFFFF;
